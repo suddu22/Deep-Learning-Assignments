@@ -152,7 +152,7 @@ if args == '--train':
     print('Network 2 - Orthogonal Initialization')
 
 
-    net2_orthogonal.collect_params().initialize(mx.init.Xavier(), ctx=ctx)
+    net2_orthogonal.collect_params().initialize(mx.init.Orthogonal(), ctx=ctx)
     softmax_cross_entropy = gluon.loss.SoftmaxCrossEntropyLoss()
     trainer = gluon.Trainer(net2_orthogonal.collect_params(), 'adam', {'learning_rate': .001})
 
