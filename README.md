@@ -26,6 +26,6 @@
         - setup.py
 
 
-You can run 
+- You can run 
 python3 15CS10050_Assignment2_task_a.py --test; python3 15CS10050_Assignment2_task_b_expt_1.py --test; python3 15CS10050_Assignment2_task_b_expt_2.py --test; python3 15CS10050_Assignment2_task_b_expt_3.py --test; python3 15CS10050_Assignment2_task_c.py --test 
 to test all experiments
