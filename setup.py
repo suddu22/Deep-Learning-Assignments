@@ -1,4 +1,6 @@
 import requests, zipfile, os 
+import shutil
+
 url = "https://github.com/suddu22/Deep-Learning-Assignments/archive/master.zip"
   
 r = requests.get(url) 
@@ -13,4 +15,12 @@ zip_ref.close()
 
 src = 'Deep-Learning-Assignments-master'
 dst = '15CS10050_Assignment2'
+
 os.rename(src, dst)
+
+if not os.path.exists('weights'):
+    os.makedirs('weights')
+
+src = '15CS10050_Assignment2/weights'
+dst = '../weights'
+shutil.copytree(src, dst)
