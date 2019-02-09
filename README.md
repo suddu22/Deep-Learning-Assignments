@@ -1,4 +1,5 @@
 - First run setup.py to download and set up the directories
+- If it fails to run, clone the git repo from https://github.com/suddu22/Deep-Learning-Assignments.git
 - After successful completion, a directory named 15CS10050_Assignment2 is created which contains all the required files
 - Copy data folder into this directory
 - Then you can run any of the python files present in codes directory with flag --train to train the network or flag --test to test the experiments
