@@ -15,6 +15,7 @@
     - mxnet
     - matplotlib
     - zipfile
+    - requests
 
 - Directory structure
     - 15CS10050_Assignment2
